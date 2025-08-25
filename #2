@@ -1,0 +1,13 @@
+# Tugas 2
+
+jumlah_kopi_str = input("Masukkan jumlah pesanan kopi anda: ")
+jumlah_roti_str = input("Masukkan jumlah pesanan roti anda: ")
+
+print("Tipe data awal jumlah kopi:", type(jumlah_kopi_str))
+print("Tipe data awal jumlah roti:", type(jumlah_roti_str))
+
+jumlah_kopi_int = int(jumlah_kopi_str)
+jumlah_roti_int = int(jumlah_roti_str)
+
+print("Tipe data jumlah pesanan kopi setelah konvensi:", type(jumlah_kopi_int))
+print("Tipe data jumlah pesanan roti setelah konvensi:", type(jumlah_roti_int))
