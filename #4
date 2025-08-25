@@ -1,0 +1,12 @@
+# Tugas 4
+
+nama_pelanggan = input("Masukkan nama Anda: ")
+pesan_terima_kasih = "Terima Kasih, " + nama_pelanggan + " sudah berbelanja di Coffee Shop Bahagia!"
+
+garis = "*" * 25
+
+print(garis)
+print(pesan_terima_kasih)
+print(garis)
+
+print(f"Total harga Kopi Pagi adalah Rp36001.0")
