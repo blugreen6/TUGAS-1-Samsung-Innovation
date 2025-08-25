@@ -1,0 +1,16 @@
+# Nomor 1
+
+nama_produk1 = "Kopi Pagi"
+harga_produk1 = 18000.5
+
+nama_produk2 = "Roti Cokelat"
+harga_produk2 = "10000"
+status_ketersediaan2 = "true"
+
+
+print("Nama Produk 1:", nama_produk1)
+print("Harga Produk 1:", harga_produk1)
+
+print("Nama Produk 2:", nama_produk2)
+print("Harga Produk 2:", harga_produk2)
+print("Status Ketersediaan Roti:", status_ketersediaan2)
