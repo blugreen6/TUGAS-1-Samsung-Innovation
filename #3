@@ -1,0 +1,20 @@
+# Tugas 3
+
+harga_kopi = 18000.5
+jumlah_kopi_int = int(input("Masukkan jumlah pesanan kopi (contoh: 1): "))
+
+harga_roti = 10000
+jumlah_roti_int =int(input("Masukkan jumlah pesanan roti (contoh: 1): "))
+
+total_harga_kopi  = harga_kopi*jumlah_kopi_int
+total_harga_roti  = harga_roti*jumlah_roti_int
+print("Total kopi:", total_harga_kopi)
+print("Total roti:", total_harga_roti)
+
+total_harga = total_harga_kopi + total_harga_roti
+print("Total harga keseluruhan:", total_harga)
+
+uang_pelanggan = int(input("Masukkan jumlah uang: "))
+kembalian = uang_pelanggan - total_harga
+print("Uang yang dibayarkan:", uang_pelanggan)
+print("Kembalian yang harus diberikan:", kembalian)
